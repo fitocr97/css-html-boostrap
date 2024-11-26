@@ -1,0 +1,68 @@
+body{
+    background-color: #d6d0c8;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+}
+
+.container{
+    margin: 0% auto;
+    width: 90%;
+}
+
+h2{
+    font-weight: 700;
+    
+}
+
+/*google fonts*/
+
+/*
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+*/
+
+
+/* flex box necesita contenedor padre e hijos */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background-color: blanchedalmond;
+    border:  1px black solid;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 1.5%;
+    box-shadow: 5px 5px rgb(68, 33, 33);
+    width: 20%;
+    box-sizing: border-box; /* incluir padding borde al calculo*/
+}
+
+.precio{
+    font-size: 40px;
+    color: #ada192;
+}
+
+hr{
+    color: rgb(161, 44, 11);
+}
+
+.btn-comprar{
+    background: #4e4b44;
+    color: white;
+    display: block;
+    padding: 2.5%;
+    text-decoration: none;
+    border-radius: 3%;
+    border: 1px solid;
+}
+
+.btn-comprar:hover{
+    background: #a5a29b;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+}
